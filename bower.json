@@ -1,0 +1,24 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "authors": [
+    "Edward Russell <elr11789@gmail.com>"
+  ],
+  "description": "Angular directive to include the Marvel pure CSS in your app",
+  "main": "marvelDevice.js",
+  "keywords": [
+    "angular",
+    "marvel",
+    "mobile",
+    "devices"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/FatEd11/marvel-device",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,13 @@
+<div class="marvel-device" ng-class="[type, colour, orientation]">
+    <div ng-if="topBar" class="top-bar"></div>
+    <div ng-if="sleep" class="sleep"></div>
+    <div ng-if="volume" class="volume"></div>
+    <div class="camera"></div>
+    <div ng-if="sensor" class="sensor"></div>
+    <div ng-if="speaker" class="speaker"></div>
+    <div class="screen">
+        <img ng-src="{{image}}" alt="{{alt}}">
+    </div>
+    <div ng-if="home" class="home"></div>
+    <div ng-if="bottomBar" class="bottom-bar"></div>
+</div>
